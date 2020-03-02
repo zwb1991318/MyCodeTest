@@ -23,7 +23,7 @@ def fill_univ_list(html):
             ulist.append([tds[0].string, tds[1].string, tds[2].string])
 
     return ulist
-
+ 
 def print_univ_list(univ_list, num):
     """print univ info list"""
     tplt = "{0:^10}\t{1:{3}^10}\t{2:^10}"
